@@ -28,6 +28,7 @@
         <spring-cloud-alibaba-dependencies.version>2021.0.4.0</spring-cloud-alibaba-dependencies.version>
         <spring-cloud-dependencies.version>2021.0.4</spring-cloud-dependencies.version>
         <kubernetes-client.version>5.12.4</kubernetes-client.version>
+        <java-jwt.version>4.4.0</java-jwt.version>
     </properties>
 
     <dependencyManagement>
@@ -101,6 +102,12 @@
                 <artifactId>kubernetes-client</artifactId>
                 <version>${kubernetes-client.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.auth0</groupId>
+                <artifactId>java-jwt</artifactId>
+                <version>${java-jwt.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
