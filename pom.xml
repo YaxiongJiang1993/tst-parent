@@ -29,6 +29,7 @@
         <spring-cloud-dependencies.version>2021.0.4</spring-cloud-dependencies.version>
         <kubernetes-client.version>5.12.4</kubernetes-client.version>
         <java-jwt.version>4.4.0</java-jwt.version>
+        <netty-all.version>4.1.112.Final</netty-all.version>
     </properties>
 
     <dependencyManagement>
@@ -107,7 +108,11 @@
                 <artifactId>java-jwt</artifactId>
                 <version>${java-jwt.version}</version>
             </dependency>
-
+            <dependency>
+                <groupId>io.netty</groupId>
+                <artifactId>netty-all</artifactId>
+                <version>${netty-all.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
