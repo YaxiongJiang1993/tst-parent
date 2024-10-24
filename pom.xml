@@ -20,6 +20,7 @@
         <springfox-swagger2.version>2.9.2</springfox-swagger2.version>
         <commons-collections4.version>4.4</commons-collections4.version>
         <guava.version>31.1.1-jre</guava.version>
+        <caffeine.version>3.1.8</caffeine.version>
         <lombok.version>1.18.26</lombok.version>
         <hutool-all.version>5.8.16</hutool-all.version>
         <mybatis-plus-boot-starter.version>3.5.3.1</mybatis-plus-boot-starter.version>
@@ -62,6 +63,11 @@
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
                 <version>${guava.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.ben-manes.caffeine</groupId>
+                <artifactId>caffeine</artifactId>
+                <version>${caffeine.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.projectlombok</groupId>
